@@ -23,10 +23,10 @@ class Animal {
     }
 }
 
-let objAnimal1 = new Animal(`Elephant`,45.6)
-let objAnimal2 = new Animal(`Tiger`,40.6)
-objAnimal2.setName(`Mouse`)
-objAnimal1.toString()
-objAnimal2.toString()
-console.log(objAnimal1.toString())
-console.log(objAnimal2.toString())
+let Animal1 = new Animal(`Elephant`,45.6)
+let Animal2 = new Animal(`Tiger`,40.6)
+Animal2.setName(`Mouse`)
+Animal1.toString()
+Animal2.toString()
+console.log(Animal1.toString())
+console.log(Animal2.toString())
